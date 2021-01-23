@@ -42,10 +42,13 @@ spans {
   padding: 10px;
 }
 .img {
-  width: 100px;
-  border-radius: 100%;
-  border: 5px solid white;
+  margin-top: 2vh;
+  width: 130px;
+  height: 130px;
+  border-radius: 20%;
+  border: 3px solid white;
   box-shadow: 1px 1px 10px black;
+  object-fit: fill;
 }
 .spans {
   margin-right: 10px;
