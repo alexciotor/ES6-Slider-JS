@@ -10,7 +10,7 @@ body {
   width: 50%;
   margin: auto;
   text-align: center;
-  margin-top: 30vh;
+  margin-top: 10vh;
   height: auto;
   position: relative;
 }
@@ -101,4 +101,10 @@ spans {
 }
 .art.last {
   transform: translateX(-100%);
+}
+@media only screen and (min-width: 280px) and (max-width: 480px) {
+ .main-section{
+   width: 70%;
+ }
+
 }
